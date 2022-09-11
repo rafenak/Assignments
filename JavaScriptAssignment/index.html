@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <meta name="description" content="JavaScript Assignment" >
+    <meta name="keywords" content="HTML5,CSS,JavaScript">
+    <meta name="author" content="Rafe Nakhuda">
+    <title>Assignment</title>
+    <style>
+      hr {
+        display: block;
+        position: relative;
+        padding: 0;
+        margin: 8px auto;
+        height: 0;
+        width: 100%;
+        max-height: 0;
+        font-size: 1px;
+        line-height: 0;
+        clear: both;
+        border: none;
+        border-top: 1px solid #aaaaaa;
+        border-bottom: 1px solid #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="h3 text-center">Assignment</h2>
+      <div class="row">
+        <div class="col-sm">
+          <h6>Q1</h6>
+          <button type="button" class="btn btn-info" onclick="q1a()">
+            Q1A
+          </button>
+          <p class="fw-light text-break" id="q1a"></p>
+          <button type="button" class="btn btn-info" onclick="q1b()">
+            Q1B
+          </button>
+          <p class="fw-light text-break" id="q1b"></p>
+          <script src="./q1.js"></script>
+        </div>
+        <div class="col-sm">
+          <h6>Q2</h6>
+          <button type="button" class="btn btn-info" onclick="q2()">Q2</button>
+          <p class="fw-light text-break" id="q2"></p>
+          <script src="./q2.js"></script>
+        </div>
+        <div class="col-sm">
+          <h6>Q3</h6>
+          <button type="button" class="btn btn-info" onclick="q3()">Q3</button>
+          <p class="fw-light text-break" id="q3"></p>
+          <script src="./q3.js"></script>
+        </div>
+        <div class="col-sm">
+          <h6>Q4</h6>
+          <button type="button" class="btn btn-info" onclick="q4()">Q4</button>
+          <p class="fw-light text-break" id="q4"></p>
+          <script src="./q4.js"></script>
+        </div>
+        <div class="col-sm">
+          <h6>Q5</h6>
+          <button type="button" class="btn btn-info" onclick="q5()">Q5</button>
+          <p class="fw-light text-break" id="q5"></p>
+          <script src="./q5.js"></script>
+        </div>
+        <div class="col-sm">
+          <h6>Q6</h6>
+          <div class="row">
+            <div class="col mini-box">
+              <button type="button" class="btn btn-info" onclick="q6a()">
+                Q6A
+              </button>
+              <p class="fw-light text-break" id="q6a"></p>
+            </div>
+            <div class="col mini-box">
+              <input
+                type="text"
+                id="productnumber"
+                class="form-control"
+                placeholder="Product Number"
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+              />
+              <input
+                type="text"
+                id="quantity"
+                class="form-control"
+                placeholder="Quantity Sold"
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+              />
+              <button type="button" class="btn btn-info" onclick="q6b()">
+                Q6B
+              </button>
+              <p class="fw-light text-break" id="q6b"></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col mini-box">
+              <button type="button" class="btn btn-info" onclick="q6c()">
+                Q6C
+              </button>
+              <p class="fw-light text-break" id="q6c"></p>
+            </div>
+            <div class="col mini-box">
+              <button type="button" class="btn btn-info" onclick="q6d()">
+                Q6D
+              </button>
+              <p class="fw-light text-break" id="q6d"></p>
+            </div>
+            <div class="row">
+              <div class="col mini-box">
+                <button type="button" class="btn btn-info" onclick="q6e()">
+                  Q6E
+                </button>
+                <p class="fw-light text-break" id="q6e"></p>
+              </div>
+            </div>
+          </div>
+          <script src="./q6.js"></script>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <h6>Q7</h6>
+          <button type="button" class="btn btn-info" onclick="q7a()">
+            Q7A
+          </button>
+          <p class="fw-light text-break" id="q7a"></p>
+          <button type="button" class="btn btn-info" onclick="q7b()">
+            Q7B
+          </button>
+          <p class="fw-light text-break" id="q7b"></p>
+          <script src="./q7.js"></script>
+        </div>
+        <div class="col-sm">
+          <h6>Q8</h6>
+          <div class="row">
+            <div class="col mini-box">
+              <button type="button" class="btn btn-info" onclick="q8a()">
+                Q8A
+              </button>
+              <p class="fw-light text-break" id="q8a"></p>
+            </div>
+            <div class="col mini-box">
+              <button type="button" class="btn btn-info" onclick="q8b()">
+                Q8B
+              </button>
+              <p class="fw-light text-break" id="q8b"></p>
+            </div>
+            <div class="col mini-box">
+              <button type="button" class="btn btn-info" onclick="q8c()">
+                Q8C
+              </button>
+              <p class="fw-light text-break" id="q8c"></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col mini-box">
+              <button type="button" class="btn btn-info" onclick="q8d()">
+                Q8D
+              </button>
+              <p class="fw-light text-break" id="q8d"></p>
+            </div>
+            <div class="col mini-box">
+              <button type="button" class="btn btn-info" onclick="q8e()">
+                Q8E
+              </button>
+              <p class="fw-light text-break" id="q8e"></p>
+            </div>
+            <div class="col mini-box">
+              <button type="button" class="btn btn-info" onclick="q8f()">
+                Q8F
+              </button>
+              <p class="fw-light text-break" id="q8f1"></p>
+              <p class="fw-light text-break" id="q8f2"></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col mini-box">
+              <button type="button" class="btn btn-info" onclick="q8g()">
+                Q8G
+              </button>
+              <p class="fw-light text-break" id="q8g"></p>
+            </div>
+            <div class="col mini-box">
+              <button type="button" class="btn btn-info" onclick="q8h()">
+                Q8H
+              </button>
+              <p class="fw-light text-break" id="q8h"></p>
+            </div>
+            <div class="col mini-box">
+              <button type="button" class="btn btn-info" onclick="q8i()">
+                Q8I
+              </button>
+              <p class="fw-light text-break" id="q8i"></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col mini-box">
+              <button type="button" class="btn btn-info" onclick="q8j()">
+                Q8J
+              </button>
+              <p class="fw-light text-break" id="q8j"></p>
+            </div>
+          </div>
+          <script src="./q8.js"></script>
+        </div>
+        <div class="col-sm">
+          <h6>Q9</h6>
+          <div class="row">
+            <div class="col mini-box">
+              <button type="button" class="btn btn-info" onclick="q9a()">
+                Q9A
+              </button>
+              <p class="fw-light text-break" id="q9a"></p>
+            </div>
+            <div class="col mini-box">
+              <button type="button" class="btn btn-info" onclick="q9b()">
+                Q9B
+              </button>
+              <p class="fw-light text-break" id="q9b"></p>
+            </div>
+            <div class="col mini-box">
+              <button type="button" class="btn btn-info" onclick="q9c()">
+                Q9C
+              </button>
+              <p class="fw-light text-break" id="q9c"></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col mini-box">
+              <button type="button" class="btn btn-info" onclick="q9d()">
+                Q9D
+              </button>
+              <p class="fw-light text-break" id="q9d"></p>
+            </div>
+            <div class="col mini-box">
+              <button type="button" class="btn btn-info" onclick="q9e()">
+                Q9E
+              </button>
+              <p class="fw-light text-break" id="q9e"></p>
+            </div>
+          </div>
+          <script src="./q9.js"></script>
+        </div>
+        <div class="col-sm">
+          <h6>Q10</h6>
+          <div class="row">
+            <div class="col mini-box">
+              <a class="btn btn-info" href="./q10a.html" role="button">Q10A</a>
+              <!-- <button type="button" class="btn btn-info" onclick="q10a()">
+                Q10A
+              </button> -->
+              <p class="fw-light text-break" id="q10a"></p>
+            </div>
+            <div class="col mini-box">
+              <a class="btn btn-info" href="./q10b.html" role="button">Q10B</a>
+              <p class="fw-light text-break" id="q10b"></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col mini-box">
+              <button type="button" class="btn btn-info" onclick="q10c()">
+                Q10C
+              </button>
+              <p class="fw-light text-break" id="q10c" style="font-size: 10px">
+                We are Concerto Software and Systems, one of the most trusted
+                players in providing the best-in-class Payment Solutions.
+                Powered by our skilled team who continuously excel and innovate,
+                we design, develop and implement Payment systems across the
+                globe
+              </p>
+            </div>
+            <div class="col mini-box">
+              <a class="btn btn-info" href="./q10d.html" role="button">Q10D</a>
+              <p class="fw-light text-break" id="q10d"></p>
+            </div>
+          </div>
+          <script src="./q10.js"></script>
+        </div>
+        <div class="col-sm">
+          <h6>Q11</h6>
+          <input
+            type="text"
+            id="txtinput"
+            class="form-control"
+            placeholder="Product Number"
+            aria-label="Username"
+            aria-describedby="basic-addon1"
+          />
+          <button type="button" class="btn btn-info" onclick="q11()">
+            Test Input
+          </button>
+          <p class="fw-light text-break" id="q11"></p>
+          <script src="./q11.js"></script>
+        </div>
+        <div class="col-sm">
+          <h6>Q12</h6>
+          <a class="btn btn-info" href="./q12a.html" role="button">Q12A</a>
+          <p class="fw-light text-break" id="q12a"></p>
+          <a class="btn btn-info" href="./q12b.html" role="button">Q12B</a>
+          <p class="fw-light text-break" id="q12b"></p>
+        </div>
+        <div class="col-sm">
+          <h6>Q13</h6>
+          <button type="button" class="btn btn-info" onclick="q13a()">
+            Q13A
+          </button>
+          <p class="fw-light text-break" id="q13a"></p>
+          <button type="button" class="btn btn-info" onclick="q13b()">
+            Q13B
+          </button>
+          <p class="fw-light text-break" id="q13b"></p>
+          <button type="button" class="btn btn-info" onclick="q13c()">
+            q13C
+          </button>
+          <p class="fw-light text-break" id="q13c"></p>
+          <script src="./q13.js"></script>
+      </div>
+    </div>
+  </body>
+</html>

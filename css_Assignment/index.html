@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="FootBall Ground">
+  <meta name="keywords" content="HTML5,CSS">
+  <meta name="author" content="Rafe Nakhuda">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FootBall</title>
+</head>
+<style>
+  body {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main {
+    width: 800px;
+    height: 600px;
+    background: rgb(82, 42, 2);
+    background: radial-gradient(circle,
+        rgba(82, 42, 2, 1) 0%,
+        rgba(34, 89, 19, 1) 71%,
+        rgba(12, 50, 3, 1) 100%);
+    padding: 8px;
+    /* border: 1px solid yellow; */
+    border: 2px solid;
+    border-image: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%
+    ) 1;
+  }
+
+  .left {
+    border: 2px solid white;
+    position: absolute;
+    height: 597px;
+    width: 400px;
+  }
+
+  .left-penalty {
+    border: 1.5px solid white;
+    position: absolute;
+    height: 300px;
+    width: 120px;
+    margin-top: 150px;
+  }
+
+  .left-goal {
+    border: 1.5px solid white;
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    margin-top: 220px;
+  }
+
+  .left-dot {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 80px;
+  }
+
+  .left-penalty-semi-circle {
+    width: 130px;
+    height: 250px;
+    border: 1.5px solid white;
+    border-radius: 0 130px 130px 0;
+    position: absolute;
+    margin-top: 173px;
+    margin-left: 27px;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+
+  .left-semi-circle {
+    width: 110px;
+    height: 220px;
+    border-radius: 110px 0 0 110px;
+    border: 2px solid white;
+    position: absolute;
+    margin-left: 288px;
+    margin-top: 200px;
+  }
+
+  .left-semi-circle-inner {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 305px;
+    margin-left: 386px;
+  }
+
+  /* Right Div*/
+  .right {
+    border: 2px solid white;
+    position: absolute;
+    height: 597px;
+    width: 396px;
+    margin-left: 400px;
+  }
+
+  .right-penalty {
+    border: 1.5px solid white;
+    position: absolute;
+    height: 300px;
+    width: 120px;
+    margin-top: 150px;
+    margin-left: 275px;
+  }
+
+  .right-goal {
+    border: 1.5px solid white;
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    margin-top: 220px;
+    margin-left: 345px;
+  }
+
+  .right-dot {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 300px;
+  }
+
+  .right-penalty-semi-circle {
+    width: 130px;
+    height: 250px;
+    border: 1.5px solid white;
+    border-radius: 130px 0 0 130px;
+    position: absolute;
+    margin-top: 173px;
+    margin-left: 238px;
+    /* border-left-color: transparent; */
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+  }
+
+  .right-semi-circle {
+    width: 110px;
+    height: 220px;
+    border-radius: 0 110px 110px 0;
+    border: 2px solid white;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 200px;
+  }
+</style>
+
+<body>
+  <div class="main">
+
+    <div class="left">
+      <div class="left-penalty"></div>
+      <div class="left-goal"></div>
+      <div class="left-dot"></div>
+      <div class="left-penalty-semi-circle"></div>
+      <div class="left-semi-circle"></div>
+      <div class="left-semi-circle-inner"></div>
+    </div>
+
+    <div class="right">
+      <div class="right-penalty"></div>
+      <div class="right-goal"></div>
+      <div class="right-dot"></div>
+      <div class="right-penalty-semi-circle"></div>
+      <div class="right-semi-circle"></div>
+      <div class="right-semi-circle-inner"></div>
+    </div>
+
+  </div>
+</body>
+
+</html>
