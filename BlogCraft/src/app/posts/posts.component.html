@@ -1,0 +1,28 @@
+
+<div class="content">
+  <div fxLayout="row wrap">
+<div *ngFor="let blog of sortedBlogs" fxFlex="100%" fxLayoutAlign="center" style="margin-top: 10px;">
+  <mat-card class="container" >
+  <mat-card-header>
+      <mat-card-title>{{blog.title}}</mat-card-title>
+      <mat-card-subtitle>
+          {{blog.category}}
+      </mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content class="mat-list-item-word-wrap">
+    <p mat-line>
+       {{blog.description}}
+    </p>
+  </mat-card-content>
+    <mat-card-subtitle>
+          {{blog.createAt | date:'medium' }}
+      </mat-card-subtitle>
+  <mat-card-actions>
+      <button mat-raised-button color="primary" (click)="editBlog(blog)">Edit</button>
+      <button mat-raised-button color="warn" (click)="deleteBlog(blog)">Delete</button>
+  </mat-card-actions>
+  </mat-card>
+  </div>
+  </div>
+</div>
+
